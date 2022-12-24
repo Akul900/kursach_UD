@@ -22,10 +22,7 @@ namespace kursach_UD
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_ISTb_20_1_Akulin_WarehouseDataSet.Goods". При необходимости она может быть перемещена или удалена.
-            this.goodsTableAdapter.Fill(this._ISTb_20_1_Akulin_WarehouseDataSet.Goods);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_ISTb_20_1_Akulin_WarehouseDataSet.Buyer". При необходимости она может быть перемещена или удалена.
-            this.buyerTableAdapter.Fill(this._ISTb_20_1_Akulin_WarehouseDataSet.Buyer);
+           
 
         }
 

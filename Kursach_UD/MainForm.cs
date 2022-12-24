@@ -95,7 +95,7 @@ namespace kursach_UD
          /*   if (dataGridView.Columns.Contains("Delete") && e.ColumnIndex == dataGridView.Columns["Delete"].Index && e.RowIndex >= 0)
             {*/
                 // Получаем значение идентификатора строки, на которую нажали кнопку удаления
-                int id = (int)dataGridView.Rows[e.RowIndex].Index;
+                int id = (int)dataGridView.Rows[e.RowIndex].Cells["Id"].Value;
 
             
                 string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
